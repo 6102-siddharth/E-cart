@@ -134,11 +134,11 @@ h1 {
   border: 1px solid black;
 }
 .register-btn {
-  width: 9vw;
+  width: 20vw;
   height: 7vh;
   /* background-color: antiquewhite; */
   background-color: rgb(19, 161, 255);
-  border-radius: 30px;
+  border-radius: 15px;
   color: white;
 }
 #register-btn {
@@ -146,9 +146,9 @@ h1 {
   justify-content: center;
 }
 .register-btn:hover {
-  width: 9vw;
+  width: 20vw;
   height: 7vh;
   color: black;
   background-color: rgb(146, 218, 146);
-  border-radius: 30px;
+  border-radius: 15px;
 }
