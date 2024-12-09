@@ -1,0 +1,26 @@
+/* Style sheet of Navbar */
+
+.navbar {
+  background-color: rgb(0, 21, 255);
+  width: 100vw;
+  height: 10vh;
+}
+
+.ulelements {
+  display: flex;
+  align-items: center;
+}
+
+.ulelements li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+  width: 5vw;
+}
+
+.ulelements li:hover {
+  background-color: yellow;
+}

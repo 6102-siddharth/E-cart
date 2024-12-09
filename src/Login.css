@@ -1,0 +1,55 @@
+/* Login page */
+.body {
+  width: 88vw;
+  height: 76vh;
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.head1 {
+  padding: 7px;
+}
+.d1 {
+  width: 40vw;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  width: 30vw;
+  height: 60vh;
+  background-color: white;
+  justify-self: center;
+}
+.username {
+  width: 30vw;
+  border-color: rgb(1, 255, 1);
+  height: 5vh;
+}
+.password {
+  width: 30vw;
+  border-color: rgb(0, 255, 26);
+  height: 5vh;
+}
+.checkbox {
+  display: flex;
+  width: 30vw;
+  height: 5vh;
+  justify-content: space-between;
+}
+.login-btn {
+  width: 9vw;
+  height: 7vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 30px;
+}
+
+.new-register-btn {
+  width: 9vw;
+  height: 7vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 30px;
+}

@@ -6,7 +6,7 @@ const Register = () => {
             <div className='body1'>
                 <div className='container1'>
                     <h1>New Registration</h1>
-                    <hr style={{ border: "6px solid white", borderRadius: "50%" }} />
+                    {/* <hr style={{ border: "6px solid white", borderRadius: "50%" }} /> */}
                     <div className="radio-class">
                         <div>
                             <input type="radio" name="select" className='radio-btn' />
@@ -18,7 +18,7 @@ const Register = () => {
                             <label htmlFor="">Company</label>
                         </div>
                     </div>
-                    <hr style={{ border: "6px solid white", borderRadius: "50%" }} />
+                    {/* <hr style={{ border: "6px solid white", borderRadius: "50%" }} /> */}
                     <div className="reginfo" >
                         <div className='reg-icons'>
                             <div className="App">
@@ -48,6 +48,8 @@ const Register = () => {
                     <div id="register-btn">
                         <button type="button" className="register-btn">Submit</button>
                     </div>
+                        <h4>Already register? <a href="http://localhost:5173/login">  Login Here </a> </h4>
+                
                 </div>
             </div>
         </>

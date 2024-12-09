@@ -1,0 +1,85 @@
+/* New Registration CSS*/
+
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 88vw;
+  height: 76vh;
+  padding: 5%;
+}
+h1 {
+  justify-self: center;
+}
+.container1 {
+  background-color: rgb(211, 210, 210);
+  width: 34vw;
+  height: 62vh;
+  justify-self: center;
+  align-self: center;
+}
+.radio-class {
+  display: flex;
+  justify-content: space-around;
+}
+.radio-btn {
+  background-color: rgb(19, 161, 255);
+}
+
+.reginfo {
+  display: grid;
+  justify-content: center;
+  padding: 4%;
+}
+.reginfo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 5vh;
+  margin: 5px;
+  margin-left: 0px;
+  border: 0px;
+  outline: 0;
+}
+.reg-icons {
+  display: flex;
+  align-items: center;
+}
+.App {
+  width: 3vw;
+  height: 5vh;
+  border: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1.6px solid white;
+}
+.register-btn {
+  width: 20vw;
+  height: 7vh;
+  background-color: rgb(19, 161, 255);
+  border-radius: 15px;
+  color: white;
+}
+#register-btn {
+  display: flex;
+  justify-content: center;
+}
+.register-btn:hover {
+  width: 20vw;
+  height: 7vh;
+  color: black;
+  background-color: rgb(146, 218, 146);
+  border-radius: 15px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+h4 a {
+  color: rgb(19, 161, 255);
+}

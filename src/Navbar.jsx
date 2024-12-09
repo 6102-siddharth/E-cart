@@ -16,6 +16,9 @@ function Navbar() {
                 <li>
                     <a href="/register">Register</a>
                 </li>
+                <li>
+                    <a href="/contact">Contacts-us</a>
+                </li>
             </ul>
         </nav>
     );

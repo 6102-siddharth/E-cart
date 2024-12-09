@@ -1,5 +1,4 @@
-/* Login page */
-.body {
+/* Login page .body {
   width: 88vw;
   height: 76vh;
   background-color: rgb(211, 211, 211);
@@ -35,6 +34,7 @@
 .checkbox {
   display: flex;
   width: 30vw;
+  height: 5vh;
   justify-content: space-between;
 }
 .login-btn {
@@ -45,7 +45,15 @@
   border-radius: 30px;
 }
 
-/* Style sheet of Navbar */
+.new-register-btn {
+  width: 9vw;
+  height: 7vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 30px;
+} */
+
+/* Style sheet of Navbar
 
 .navbar {
   background-color: rgb(0, 21, 255);
@@ -70,9 +78,9 @@
 
 .ulelements li:hover {
   background-color: yellow;
-}
+} */
 
-/* New Registration CSS*/
+/* New Registration CSS
 
 .body1 {
   display: flex;
@@ -89,10 +97,9 @@ h1 {
 .container1 {
   background-color: rgb(211, 210, 210);
   width: 34vw;
-  height: 68vh;
+  height: 62vh;
   justify-self: center;
   align-self: center;
-  border: 2px solid rgb(0, 0, 0);
 }
 .radio-class {
   display: flex;
@@ -105,17 +112,18 @@ h1 {
 .reginfo {
   display: grid;
   justify-content: center;
-  padding: 7%;
+  padding: 4%;
 }
 .reginfo1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20vw;
-  /* border-color: rgb(1, 255, 1); */
   height: 5vh;
   margin: 5px;
   margin-left: 0px;
+  border: 0px;
+  outline: 0;
 }
 .reg-icons {
   display: flex;
@@ -124,19 +132,16 @@ h1 {
 .App {
   width: 3vw;
   height: 5vh;
-  background-color: rgb(19, 161, 255);
+  border: 0px;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  /* border-color: rgb(1, 255, 1);
-  border: 2px; */
-  border: 1px solid black;
+  outline: 1.6px solid white;
 }
 .register-btn {
   width: 20vw;
   height: 7vh;
-  /* background-color: antiquewhite; */
   background-color: rgb(19, 161, 255);
   border-radius: 15px;
   color: white;
@@ -152,3 +157,48 @@ h1 {
   background-color: rgb(146, 218, 146);
   border-radius: 15px;
 }
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+h4 a {
+  color: rgb(19, 161, 255);
+} */
+
+/* Products Page 
+#containers {
+  display: flex;
+}
+.contain1 {
+  width: 22vw;
+  height: 60vh;
+  border: 2px solid black;
+  margin: 4px;
+}
+.cartcontainer {
+  display: flex;
+  justify-content: center;
+}
+.cartimages:hover {
+  width: 19vw;
+  justify-self: center;
+}
+.cartimages {
+  width: 18vw;
+}
+#cart-btn {
+  display: flex;
+  justify-content: center;
+}
+.cart-btn {
+  width: 10vw;
+  height: 5vh;
+  background-color: rgb(19, 161, 255);
+  border-radius: 100px;
+} */
+
+/* .cart-btn:hover {
+  background-color: rgb(64, 154, 214);
+  color: black;
+} */
