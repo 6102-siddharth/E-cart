@@ -7,7 +7,7 @@ import './Login.css';
 import Register from "./Register";
 import './Register.css';
 import Products from "./Products";
-import './Products.css';
+// import './Products.css';
 import Contact from "./Contact";
 
 
