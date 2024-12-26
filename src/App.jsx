@@ -7,8 +7,9 @@ import './Login.css';
 import Register from "./Register";
 import './Register.css';
 import Products from "./Products";
-// import './Products.css';
 import Contact from "./Contact";
+import Cartsempty from './Cartsempty';
+import Carts from './Carts';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
                   <Route path="/products" element={<Products />}></Route>
                   <Route path="/register" element={<Register/>}></Route>
                   <Route path="/contact" element={<Contact/>}></Route>
+                  <Route path="/cartsempty" element={<Cartsempty/>}></Route>
+                  <Route path="/cart" element={<Carts/>}></Route>
                 </Routes>
       </BrowserRouter>
 

@@ -19,6 +19,7 @@ function Navbar() {
                 <li>
                     <a href="/contact">Contacts-us</a>
                 </li>
+             
             </ul>
         </nav>
     );

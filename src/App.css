@@ -202,3 +202,86 @@ h4 a {
   background-color: rgb(64, 154, 214);
   color: black;
 } */
+
+/* Empty cart */
+#emptycart {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  background-color: rgb(211, 211, 211);
+  margin-top: 5vh;
+}
+.inner-empty {
+  width: 80%;
+  height: 100%;
+  border: 2px solid black;
+  background-color: white;
+}
+
+/* Cart css */
+
+#cartscontainer {
+  width: 98vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(211, 211, 211);
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.custom-input {
+  height: 4vh;
+  align-self: center;
+  margin-right: 20px;
+  border: 2px solid gray;
+}
+.custom-input::placeholder {
+  color: blue;
+}
+.address {
+  width: 60vw;
+  height: 7vh;
+  margin: 30px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 100px;
+}
+.innercarts {
+  width: 60vw;
+  height: 20vh;
+  border: 2px solid black;
+  background-color: white;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.placeorder {
+  width: 60vw;
+  height: 7vh;
+  /* border: 2px solid black; */
+  background-color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  /* margin-right: 20px; */
+}
+
+#order-btn {
+  width: 15vw;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-color: #fb641b;
+  color: white;
+}
+/* Price details */
+.pricedetails {
+  width: 22vw;
+  height: 20vh;
+  border: 2px solid black;
+  margin: 0px;
+  background-color: white;
+  margin: 30px;
+}
