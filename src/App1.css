@@ -1,0 +1,372 @@
+
+    /* Hero Section */
+    .hero {
+        background: url("https://t4.ftcdn.net/jpg/07/44/26/31/360_F_744263175_FWcxLHnd8eUrOtIaxojuRbqbqbJKjnju.jpg") no-repeat center center/cover;
+        color: white;
+        height: 80vh;
+        display: flex;
+        justify-content: bottom;
+        align-items: center;
+        text-align: right;
+        padding: 40x;
+      }
+      
+      
+      .hero h1 {
+        font-size: 40px;
+        margin: 0;
+        color: #fff;
+      }
+      .hero h2
+      {
+        font-size: 15px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin: 0;
+        color: #fff;
+      }
+      
+      
+    /* General styles for the app */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+    }
+    
+    .navbar-logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    
+    .navbar-search input {
+      padding: 5px;
+      font-size: 1em;
+    }
+    
+    .navbar-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+    
+    .icon {
+      font-weight: bold;
+    }
+    
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background-color: #f4f4f4;
+    }
+    
+    .hero-button {
+      padding: 10px 20px;
+      font-size: 1.1em;
+      background-color:rgb(36, 35, 35) ;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    
+    /* Product Section */
+    /* App.css */
+    
+    /* Other styles */
+    
+    /* App.css */
+    
+    /* Other styles */
+    
+    .products {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center items horizontally */
+      gap: 20px; /* Add space between items */
+    }
+    
+    .product-card {
+      width: 250px; /* Set width of product cards */
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center; /* Center text inside the product card */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-image {
+      width: 100%;
+      height: 200px; /* Set a consistent height for product images */
+      object-fit: cover; /* Ensure the image fits the container and does not stretch */
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    /* Product Details Section */
+    /* For Product Details Page */
+    /* General Styling */
+    /* Ensuring all images in product details have the same size */
+    .product-details-image {
+      width: 100%; /* Adjust to desired size, or you can set fixed width like 300px */
+      max-width: 400px; /* Max width for images */
+      height: auto;
+      object-fit: cover; /* Ensures images fit the box without distortion */
+    }
+    
+    /* Styling for the product details container */
+    .product-details-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    
+    /* Styling for the image and details container */
+    .product-details-info {
+      flex: 1;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Styling for the image container */
+    .product-details-image-container {
+      flex: 0 0 40%; /* Ensures image container takes up 40% of the width */
+      max-width: 400px; /* Set a maximum width for the image container */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Styling for the product details section */
+    .product-details {
+      padding: 20px;
+    }
+    
+    .product-extra-info ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .product-extra-info li {
+      margin-bottom: 5px;
+    }
+    
+    .product-details-price {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .total-price-number{
+      font-weight: bold;
+      font-size: larger;
+    }
+    .total-price-text{
+      font-weight: bold;
+      font-size: larger;
+    }
+    /* For Cart Section */
+    .cart-items {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .cart-item-image {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+    }
+    
+    .cart-item-details h3 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    
+    .cart-summary {
+      margin-top: 20px;
+    }
+    
+    .cart-summary h3 {
+      font-size: 20px;
+    }
+    
+    .cart-summary button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    .cart-summary button:hover {
+      background-color: #218838;
+    }
+    
+    
+    
+    
+    /* Profile Page Styles */
+    .profile {
+      text-align: center;
+      padding: 20px; /* Reduce padding for smaller box */
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      max-width: 400px; /* Reduced width */
+      margin: 20px auto; /* Reduce top and bottom margin */
+    }
+    
+    .profile h2 {
+      font-size: 1.6rem; /* Smaller heading size */
+      margin-bottom: 15px;
+      color: #333;
+    }
+    
+    /* Profile Photo Styling */
+    .profile-photo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px; /* Reduce space below the photo */
+    }
+    
+    .profile-photo {
+      width: 120px; /* Smaller photo size */
+      height: 120px; /* Smaller photo size */
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4CAF50;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Form Styling */
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 15px; /* Reduced margin-top */
+    }
+    
+    label {
+      font-size: 1rem; /* Smaller label font */
+      margin-bottom: 8px;
+      color: #555;
+      text-align: left;
+      width: 100%;
+      max-width: 250px; /* Reduced width */
+    }
+    
+    input {
+      padding: 8px; /* Reduced padding */
+      margin-top: 5px;
+      width: 100%;
+      max-width: 250px; /* Reduced width */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      margin-bottom: 15px;
+      font-size: 0.9rem; /* Smaller input font */
+    }
+    
+    input:focus {
+      outline: none;
+      border-color: #4CAF50;
+      background-color: #fff;
+    }
+    
+    /* Button Styling */
+    button {
+      margin-top: 10px;
+      padding: 10px 25px; /* Smaller button padding */
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem; /* Smaller button font */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+    
+    /* Overall Profile Section Styling */
+    
+    
+    /* Profile Section Button Container */
+    button + button {
+      margin-top: 10px;
+    }
+    
+    /* Additional Style for "Log Out" Button to Make It Stand Out */
+    button:last-child {
+      background-color: #e74c3c;
+    }
+    
+    button:last-child:hover {
+      background-color: #c0392b;
+    }
+    
+    
+    /* Add a default border to the product and cart sections */
+    .products,
+    .cart {
+      border: 2px solid transparent;
+      padding: 20px;
+      transition: border 0.3s ease; /* Smooth transition for border change */
+    }
+    
+    /* Add border color when the user hovers over the products or cart */
+    .products:hover,
+    .cart:hover {
+      border-color: #007BFF; /* Change this color to suit your theme */
+    }
+    
+    /* Cart icon hover effect */
+    .icon:hover {
+      cursor: pointer; /* Cursor changes to pointer when hovering over the cart or profile */
+    }
+    
+    /* Add a visual effect when the cart section is active */
+    .cart {
+      border-color: #28a745; /* Green border when cart is active */
+    }
+    
