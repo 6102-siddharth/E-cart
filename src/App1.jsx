@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./App1.css";
 
 
-function App() {
+function App1() {
   const [cart, setCart] = useState([]);
   const [orders, setOrders] = useState([]); // New state to store orders
   const [showProducts, setShowProducts] = useState(false);
@@ -419,4 +419,4 @@ function App() {
   );
 }
 
-export default App;
+export default App1;

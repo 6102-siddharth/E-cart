@@ -10,6 +10,7 @@ import Products from "./Products";
 import Contact from "./Contact";
 import Cartsempty from './Cartsempty';
 import Carts from './Carts';
+import App1 from "./App1";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                   <Route path="/contact" element={<Contact/>}></Route>
                   <Route path="/cartsempty" element={<Cartsempty/>}></Route>
                   <Route path="/cart" element={<Carts/>}></Route>
+                  <Route path="/app1" element={<App1/>}></Route>
                 </Routes>
       </BrowserRouter>
 

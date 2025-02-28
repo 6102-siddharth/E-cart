@@ -19,6 +19,9 @@ function Navbar() {
                 <li>
                     <a href="/contact">Contacts-us</a>
                 </li>
+                <li>
+                    <a href="/app1">App1</a>
+                </li>
              
             </ul>
         </nav>

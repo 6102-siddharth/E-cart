@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
-import Products from "./Products";
-import card from "./Products";
+// import Products from "./Products";
+// import card from "./Products";
 const Home = () => {
     return(
         <>
